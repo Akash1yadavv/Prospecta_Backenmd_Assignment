@@ -120,16 +120,11 @@ The Coding Interview for Graduates project at Prospecta involves developing APIs
 
     ```json
       {
-        "id": 1,
         "title": "Product Title",
         "price": 29.99,
         "description": "Product Description",
         "category": "jewelery",
-        "image": "http://example.com/image.jpg",
-        "rating": {
-          "rate": 4.5,
-          "count": 120
-        }
+        "image": "http://example.com/image.jpg"
       }
     ```
 
