@@ -1,4 +1,4 @@
-# Coding Challenge: API for Product Management
+# Coding Challenge & Theoretical Challenge: API for Product CSV File Management
 
 The Coding Interview for Graduates project at Prospecta involves developing APIs with JWT authentication and role-based access control, using the Fake Store API. The project requires creating two APIs: one for listing product details by category and another for adding new product entries. Additionally, it includes a theoretical challenge where a program processes a CSV file containing values and formulas, calculates results, and generates a CSV output. The tech stack implemented includes Java with Spring Boot for API development, JWT for authentication, role-based access control to secure endpoints, and Java for CSV processing. The implementation also emphasizes robust error handling and validation to manage formulas, cell references, and non-integer values effectively.
 
