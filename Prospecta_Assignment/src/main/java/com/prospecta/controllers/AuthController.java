@@ -13,6 +13,8 @@ import com.prospecta.model.User;
 import com.prospecta.services.JwtService;
 import com.prospecta.services.UserService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("/api/prospecta/auth") 
 public class AuthController {
@@ -20,7 +22,7 @@ public class AuthController {
     @Autowired private JwtService jwtService;
 
     @PostMapping("/login")
-    public ResponseEntity<LoginResponseDto> authenticate(@RequestBody LoginUserDto loginUserDto) {
+    public ResponseEntity<LoginResponseDto> authenticate(@RequestBody @Valid LoginUserDto loginUserDto) {
     	
         User authenticatedUser = userService.loginUser(loginUserDto);
         String jwtToken = jwtService.generateToken(authenticatedUser);
