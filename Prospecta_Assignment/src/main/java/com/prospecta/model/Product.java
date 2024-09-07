@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class Product {
-	private Integer id;
-	@NotBlank(message = "Title is mandatory")
+    private Integer id;
+    @NotBlank(message = "Title is mandatory")
     @Size(max = 100, message = "Title cannot exceed 100 characters")
     private String title;
 
