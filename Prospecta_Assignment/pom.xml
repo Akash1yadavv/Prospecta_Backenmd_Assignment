@@ -103,12 +103,6 @@
 		    <artifactId>commons-csv</artifactId>
 		    <version>1.10.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.hospital</groupId>
-			<artifactId>Hospital</artifactId>
-			<version>0.0.1</version>
-		</dependency>
 	</dependencies>
 
 	<build>
